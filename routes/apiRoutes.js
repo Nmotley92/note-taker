@@ -10,6 +10,7 @@ router.get('/notes', (req, res) => {
   readFromFile('./db/db.json').then((notes) => res.json(JSON.parse(notes)));
 });
 
+// post adds notes to the db.json file 
 router.post('/notes', (req, res) => {
   // Log that a POST request was received
   console.info(`${req.method} request received to submit a new note`);
@@ -39,10 +40,13 @@ router.post('/notes', (req, res) => {
   }
 });
 
+// delete path
 router.delete('/notes/:id', (req, res) =>{
+
   console.info(`${req.method} request recieved to delete note`);
   
   deleteNote(req.params.id, './db/db.json');
+
   res.json({ok: true })
 
 })
