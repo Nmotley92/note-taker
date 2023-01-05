@@ -19,9 +19,8 @@
 <p align="center">
 	<a href="#about">About</a> •
 	<a href="#tech-stack">Tech Stack</a> •
-	<a href="#installation">Installation</a> •
-    <a href="visuals">Visuals</a> •
-    <a href="#link">Link</a> •
+   	<a href="visuals">Visuals</a> •
+   	<a href="#link">Link</a> •
 	<a href="#contact">Contact</a>
     
 </p>
@@ -29,22 +28,19 @@
 ## About
 This was a homeowrk assignment where I learned how to use express to save to notes to a file.
 
-## Installation
-To Install this project, follow the steps above:
-```bash
-N/A
-```
 
 ## Visuals
 
+![notetaker](https://user-images.githubusercontent.com/114119193/210899463-94554c95-0b2e-4ad9-a954-ae4bd182b8a6.png)
 
 
-## link to deployed application
-:link: https://nmotley92.github.io/weather-dash/
+## link
+:link: https://thawing-citadel-61560.herokuapp.com/notes
 
 
 
 <br clear="left"/>
+
 ## Tech Stack
 <img src="https://img.shields.io/badge/Bootstrap-05122A?style=flat&logo=bootstrap" alt="bootstrap Badge" height="25">&nbsp;
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
